@@ -4,10 +4,15 @@
     margin-left: auto;
 }
 
+body {
+    background-color: #ffffff;
+    color: #666666;
+}
+
 footer {
-    font-size: .7rem
+    font-size: .7rem;
 }
 
 .ut {
-    color: #ba1c21
+    color: #ba1c21;
 }
