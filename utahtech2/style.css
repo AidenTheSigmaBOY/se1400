@@ -9,6 +9,17 @@ body {
     color: #666666;
 }
 
+header {
+    background-color: #003058;
+    color: #ffffff;
+}
+
+header h1 {
+    line-height: 140%;
+    padding: .5rem;
+}
+
+
 footer {
     font-size: .7rem;
 }
