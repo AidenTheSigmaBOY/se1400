@@ -12,6 +12,16 @@ body {
 header {
     background-color: #003058;
     color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: #f3f3f3;
+}
+
+h2 {
+    color: #424242;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header h1 {
