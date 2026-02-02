@@ -46,3 +46,7 @@ dt {
     color: #003058;
     font-weight: bold;
 }
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
