@@ -48,6 +48,7 @@ footer {
     font-size: .7rem;
     font-style: italic;
     text-align: center;
+    padding: 1rem;
 }
 
 .ut {
@@ -62,4 +63,40 @@ dt {
 
 body {
     font-family: Verdana, Arial, sans-serif;
+}
+
+h3 {
+    color: #003058;
+}
+
+main {
+    padding: 0 2rem;
+}
+
+#studenthero {
+    background-image: url(utahtechimages/studenthero.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#homehero {
+    background-image: url(utahtechimages/homehero.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#facultyhero {
+    background-image: url(utahtechimages/facultyhero.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav a {
+    text-decoration: none;
 }
