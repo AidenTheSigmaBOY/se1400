@@ -24,6 +24,7 @@ header {
 nav {
     background-color: #f3f3f3;
     font-weight: bold;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
 }
 
 h2 {
