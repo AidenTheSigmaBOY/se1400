@@ -1,0 +1,13 @@
+header {
+    background-color:aqua;
+    height:200px;
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+}
+
+#hero {
+    background-color: blue;
+    height:450px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
