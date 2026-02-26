@@ -26,6 +26,13 @@ nav {
     margin-top: -60px;
 }
 
+#navbutton {
+    display:flex;
+    margin: 1fr;
+    padding: 10px;
+    font-size: 20px;
+}
+
 main {
     background-color: rgb(0, 140, 255);
     height: 300px;
