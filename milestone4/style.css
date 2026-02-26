@@ -26,9 +26,10 @@ nav {
     margin-top: -60px;
 }
 
-#navbutton {
+#navbutton p {
     display:flex;
-    margin: 1fr;
+    margin-right: 2fr;
+    margin-left: 2fr;
     padding: 10px;
     font-size: 20px;
 }
