@@ -12,13 +12,9 @@ img {
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
 }
 
-#instagram {
-    height: 50px;
-    background-repeat: no-repeat;
-}
-
 .instagram {
     width:50px;
+    margin-top:-50px;
 }
 
 .logo {
