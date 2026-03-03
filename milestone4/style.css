@@ -18,11 +18,11 @@ img {
 }
 
 .logo {
-    width: 100px;
+    width: 95px;
 }
 
 header {
-    margin-bottom: 9px;
+    margin-bottom: 8px;
     height: 100px;
     width:100%;
     grid-row: 1 / 2;
