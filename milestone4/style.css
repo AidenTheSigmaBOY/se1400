@@ -1,9 +1,11 @@
 * {
     background-color: rgb(180, 180, 180);
 }
+
 img {
     width:100%;
 }
+
 #wrapper {
     display: grid;
     grid-auto-rows: minmax(0, auto);
@@ -11,23 +13,19 @@ img {
 }
 
 #instagram {
-    /* background-color: transparent;
-    background-image: url(instagram-logo-8enw8ic510451dx7a7vsd4.jpg);
-    background-size: contain; */
     height: 50px;
     background-repeat: no-repeat;
 }
+
 .instagram {
     width:50px;
 }
+
 .logo {
     width: 100px;
 }
 
 header {
-    /* background-image: url(Game_Update_Site_Logo-removebg-preview.png);
-    background-repeat: no-repeat;
-    background-size: contain; */
     margin-bottom: 9px;
     height: 100px;
     width:100%;
