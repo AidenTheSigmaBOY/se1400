@@ -88,15 +88,15 @@ main {
 }
 
 .DeepRockGalactic {
-    height: 90%;
+    height: 80%;
 }
 
 .DragonBallFighterZ {
-    height: 90%;
+    height: 80%;
 }
 
 .BloonsTD6 {
-    height: 85%;
+    height: 80%;
 }
 
 footer {
@@ -104,5 +104,5 @@ footer {
     height: 75px;
     grid-row: 4 / 5;
     grid-column: 1 / -1;
-    margin-top: 125px;
+    margin-top: 1px;
 }
