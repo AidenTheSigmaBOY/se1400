@@ -77,34 +77,26 @@ header h1 {
 }
 
 main {
-    background-color: rgb(63, 140, 202);
+    background-color: transparent;
     padding: 15px;
-    height: fit-content;
     justify-content: center;
     display: flex;
-    gap: 10%;
+    gap: 20px;
     grid-row: 3 / 4;
     grid-column: 1 / -1;
-    margin-top: 50px;
-}
-
-main p {
-    clear: both;
+    margin-top: 100px;
 }
 
 .DeepRockGalactic {
-    height: 85%;
-    width: 30%;
+    height: 90%;
 }
 
 .DragonBallFighterZ {
-    height: 85%;
-    width: 30%;
+    height: 90%;
 }
 
 .BloonsTD6 {
     height: 85%;
-    width: 25%;
 }
 
 footer {
