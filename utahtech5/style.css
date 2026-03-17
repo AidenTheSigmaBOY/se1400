@@ -186,3 +186,17 @@ main img {
         padding-left: 0px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        background-image: none;
+        text-align: center;
+    }
+    nav {
+        grid-row: 2 / 3;
+        grid-column: 1 / -1;
+    }
+    #studenthero, #homehero, #facultyhero {
+    display:none;
+    }
+}
