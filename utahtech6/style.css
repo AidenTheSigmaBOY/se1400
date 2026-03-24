@@ -13,15 +13,15 @@ body {
     color: #666666;
     background-attachment: fixed;
     background-image: linear-gradient(to bottom, #eeeeee, #ffffff);
-    margin:0;
+    margin: 0;
 }
 
 header {
     background-color: #003058;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    grid-row:1 / 2;
-    grid-column:2 / -2;
+    grid-row: 1 / 2;
+    grid-column: 2 / -2;
 }
 
 nav {
@@ -45,7 +45,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
     padding: 1rem 0rem;
     display: block;
     text-align: center;
@@ -53,7 +53,7 @@ nav a {
 
 nav a:hover {
     background-color: #BA1C21;
-} 
+}
 
 nav ul li {
     width: 100%;
@@ -85,8 +85,8 @@ footer {
     font-style: italic;
     text-align: center;
     padding: 1rem;
-    grid-row:5 / 6;
-    grid-column:2 / -2;
+    grid-row: 5 / 6;
+    grid-column: 2 / -2;
 }
 
 .ut {
@@ -109,7 +109,7 @@ h3 {
 
 main {
     padding: 0 2rem;
-    grid-row:4 / 5;
+    grid-row: 4 / 5;
     grid-column: 2 / -2;
     background-color: #ffffff;
 }
@@ -146,7 +146,10 @@ main {
     background-position: center;
 }
 
-#studenthero, #homehero, #facultyhero #alumnihero {
+#studenthero,
+#homehero,
+#facultyhero,
+#alumnihero {
     grid-row: 3 / 4;
     grid-column: 1 / -1;
 }
@@ -176,21 +179,23 @@ form {
     width: 100%;
 }
 
-input, textarea {
+input,
+textarea {
     font-size: 1rem;
-    padding:10px;
-    color:#666666;
+    padding: 10px;
+    color: #666666;
     background-color: #fafafa;
-    border:none;
+    border: none;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     outline: none;
     background-color: #f0f0f0;
 }
 
 label {
-    padding:10px;
+    padding: 10px;
     text-align: right;
 }
 
@@ -201,7 +206,7 @@ label {
 
 @media screen and (max-width: 1100px) {
     #wrapper {
-    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);
+        grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);
     }
 }
 
@@ -211,14 +216,20 @@ label {
         grid-column: 1 / 5;
         position: static;
     }
+
     nav ul {
-        flex-flow:column nowrap;
+        flex-flow: column nowrap;
     }
-    #studenthero, #homehero, #facultyhero #alumnihero {
-    grid-row: 2 / 3;
-    grid-column: 5 / 8;
-    height: auto;
+
+    #studenthero,
+    #homehero,
+    #facultyhero,
+    #alumnihero {
+        grid-row: 2 / 3;
+        grid-column: 5 / 8;
+        height: auto;
     }
+
     main img {
         float: none;
         width: 100%;
@@ -231,11 +242,16 @@ label {
         background-image: none;
         text-align: center;
     }
+
     nav {
         grid-row: 2 / 3;
         grid-column: 1 / -1;
     }
-    #studenthero, #homehero, #facultyhero #alumnihero {
-    display:none;
+
+    #studenthero,
+    #homehero,
+    #facultyhero,
+    #alumnihero {
+        display: none;
     }
 }
