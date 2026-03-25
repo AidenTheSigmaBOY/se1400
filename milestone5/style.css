@@ -125,6 +125,18 @@ main p:hover {
     overflow: hidden;
 }
 
+#gallary-img {
+    width: 50%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+#gallary-img:hover {
+    width: 55%;
+}
+
 .home-img img {
     object-fit: cover;
 }
