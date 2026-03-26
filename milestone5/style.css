@@ -163,12 +163,12 @@ footer {
 }
 
 @media screen and (max-width: 938px) {
-    
+
     .col-3 img {
         width: 200px;
         height: 200px;
     }
-    
+
     .col-3 div p {
         width: 180px;
         margin-top: -180px;
