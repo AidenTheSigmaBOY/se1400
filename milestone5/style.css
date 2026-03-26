@@ -127,7 +127,6 @@ main p:hover {
 
 #gallary-img {
     width: 200px;
-    object-fit: cover;
     display: flex;
     flex-direction: column;
     margin: 20px 0px;
