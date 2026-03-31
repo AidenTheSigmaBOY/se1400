@@ -77,15 +77,13 @@ header h1 {
 }
 
 main {
+    margin: 0 auto;
+    margin-top: 100px;
     background-color: transparent;
     padding: 15px;
     gap: 50px;
     grid-row: 3 / 4;
     grid-column: 1 / -1;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 100px;
-    margin-bottom: 50px;
     overflow-x: auto;
 }
 
@@ -159,19 +157,6 @@ footer {
 
     .col-3 div p {
         width: 380px;
-    }
-}
-
-@media screen and (max-width: 938px) {
-
-    .col-3 img {
-        width: 200px;
-        height: 200px;
-    }
-
-    .col-3 div p {
-        width: 180px;
-        margin-top: -180px;
     }
 }
 
