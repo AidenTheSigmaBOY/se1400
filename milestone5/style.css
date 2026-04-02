@@ -84,7 +84,7 @@ main {
     gap: 50px;
     grid-row: 3 / 4;
     grid-column: 1 / -1;
-    overflow-x:auto;
+    overflow-x: auto;
 }
 
 .col-3 {
@@ -160,17 +160,18 @@ footer {
     }
 }
 
-@media screen and (max-width: 848px) {
+@media screen and (max-width: 865px) {
     #navbuttons {
         gap: 10%;
     }
 }
 
-@media screen and (max-width: 663px) {
+@media screen and (max-width: 690px) {
     #navbuttons a {
         font-size: 30px;
         margin-top: 10px;
     }
+
     .col-3 img {
         width: 250px;
         height: 250px;
@@ -180,12 +181,11 @@ footer {
         width: 230px;
         margin-top: -140px;
     }
-}
 
-@media screen and (max-width: 660px) {
     main {
         margin-bottom: 5%;
     }
+
     header h1 {
         font-size: 250%;
     }
