@@ -84,7 +84,7 @@ main {
     gap: 50px;
     grid-row: 3 / 4;
     grid-column: 1 / -1;
-    overflow-x:scroll;
+    overflow-x:auto;
 }
 
 .col-3 {
