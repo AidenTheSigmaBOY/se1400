@@ -186,9 +186,6 @@ footer {
     main {
         margin-bottom: 5%;
     }
-}
-
-@media screen and (max-width: 620px) {
     header h1 {
         font-size: 250%;
     }
