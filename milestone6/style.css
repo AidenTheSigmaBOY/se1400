@@ -91,19 +91,16 @@ main {
     display: flex;
     grid-column: 1 / -1;
     justify-content: space-between;
-    width: 1200px;
+    width: 85%;
     margin: 0 auto;
     gap: 30px;
 }
 
 main p {
-    height: auto;
-    max-width: fit-content;
     padding: 10px;
     background-color: rgb(90, 188, 234);
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-decoration: none;
 }
 
 main p:hover {
@@ -111,7 +108,7 @@ main p:hover {
 }
 
 .col-3 img {
-    width: 400px;
+    width: 100%;
 }
 
 .col-3>div {
@@ -125,7 +122,7 @@ main p:hover {
 }
 
 #gallary-img {
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
     margin-bottom: 30px;
     margin-right: 3%;
@@ -134,7 +131,7 @@ main p:hover {
 }
 
 #gallary-img:hover {
-    width: 60%;
+    width: 45%;
 }
 
 .home-img img {
@@ -143,7 +140,7 @@ main p:hover {
 
 #gallary {
     margin: 0 auto;
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
@@ -157,19 +154,6 @@ footer {
     align-items: center;
 }
 
-@media screen and (max-width: 1550px) {
-    #gallary {
-        flex-direction: column;
-    }
-
-    #gallary-img {
-    margin: 0 auto;
-    margin-bottom: 15px;
-    transition: ease all .75s;
-    flex-flow: column;
-}
-}
-
 @media screen and (max-width: 1483px) {
     .col-3 {
         flex-flow: column wrap;
@@ -179,6 +163,19 @@ footer {
 
     .col-3 div p {
         width: 380px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #gallary {
+        flex-direction: column;
+    }
+
+    #gallary-img {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        transition: ease all .75s;
+        flex-flow: column;
     }
 }
 
