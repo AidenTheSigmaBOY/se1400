@@ -164,6 +164,10 @@ footer {
     .col-3 div p {
         width: 380px;
     }
+
+    .col-3 img {
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 1400px) {
