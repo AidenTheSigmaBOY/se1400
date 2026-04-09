@@ -12,6 +12,25 @@ img {
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
 }
 
+/* Info Tags Remain at Top Because They're Being Used on Almost Every Page */
+
+#Info, #Info *{
+    background-image: linear-gradient(to right, rgb(50, 194, 255), rgb(75, 175, 251));
+    padding:20px;
+}
+
+#Info {
+    outline: #000 Solid 5px;
+}
+
+#Info h2 {
+    padding-bottom: 0px;
+}
+
+#Info li {
+    padding: 10px;
+}
+
 .instagram {
     width: 50px;
     margin-top: -100%;
@@ -42,12 +61,18 @@ header h1 {
     width: 100%;
 }
 
+/* Hero Images Remain In This Section */
+
+#GameHeroImageContainer {
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
 #hero {
     background-image: url(Hero-Image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 450px;
-    grid-row: 2 / 3;
     grid-column: 1 / -1;
 }
 
@@ -164,6 +189,12 @@ footer {
     align-items: center;
 }
 
+@media screen and (max-width: 1640px) {
+    #DRGHeroImage {
+        background-size: contain;
+    }
+}
+
 @media screen and (max-width: 1483px) {
     .col-3 {
         flex-flow: column wrap;
@@ -220,6 +251,6 @@ footer {
     }
 
     header h1 {
-        font-size: 250%;
+        font-size: 200%;
     }
 }
