@@ -51,6 +51,15 @@ header h1 {
     grid-column: 1 / -1;
 }
 
+#DRGHeroImage {
+    background-image: url(HeroImages/DRGHeroImage.webp);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 600px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
 #navbuttons {
     background-color: transparent;
     display: flex;
