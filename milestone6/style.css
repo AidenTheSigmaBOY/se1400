@@ -26,10 +26,12 @@ img {
 
 #Info h2 {
     padding-bottom: 0px;
+    font-size: 40px;
 }
 
 #Info li {
     padding: 10px;
+    font-size: 30px;
 }
 
 .instagram {
@@ -190,11 +192,12 @@ footer {
     align-items: center;
 }
 
-@media screen and (max-width: 1640px) {
+@media screen and (max-width: 1500px) {
     #DRGHeroImage {
-        background-size: contain;
+        height: 500px;
     }
 }
+
 
 @media screen and (max-width: 1483px) {
     .col-3 {
@@ -224,6 +227,13 @@ footer {
         flex-flow: column;
     }
 }
+
+@media screen and (max-width: 1260px) {
+    #DRGHeroImage {
+        height: 320px;
+    }
+}
+
 
 @media screen and (max-width: 865px) {
     #navbuttons {
