@@ -14,9 +14,10 @@ img {
 
 /* Info Tags Remain at Top Because They're Being Used on Almost Every Page */
 
-#Info, #Info *{
+#Info,
+#Info * {
     background-image: linear-gradient(to right, rgb(50, 194, 255), rgb(75, 175, 251));
-    padding:20px;
+    padding: 20px;
 }
 
 #Info {
