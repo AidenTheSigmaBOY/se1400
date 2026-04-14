@@ -89,6 +89,56 @@ header h1 {
     grid-column: 1 / -1;
 }
 
+#DragonBallFighterZHeroImage {
+    background-image: url(HeroImages/DragonBallFighterZHeroImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+#BloonsTD6HeroImage {
+    background-image: url(HeroImages/BloonsTD6HeroImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+#LethalCompanyHeroImage {
+    background-image: url(HeroImages/LethalCompanyHeroImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+#CookieClickerHeroImage {
+    background-image: url(HeroImages/CookieClickerHeroImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+#REPOHeroImage {
+    background-image: url(HeroImages/REPOHeroImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
 #navbuttons {
     background-color: transparent;
     display: flex;
@@ -196,6 +246,22 @@ footer {
     #DRGHeroImage {
         height: 500px;
     }
+
+    #DragonBallFighterZHeroImage {
+        height: 500px;
+    }
+
+    #BloonsTD6HeroImage {
+        height: 500px;
+    }
+
+    #LethalCompanyHeroImage {
+        height: 700px;
+    }
+
+    #CookieClickerHeroImage {
+        height: 500px;
+    }
 }
 
 
@@ -232,8 +298,41 @@ footer {
     #DRGHeroImage {
         height: 320px;
     }
+
+    #DragonBallFighterZHeroImage {
+        height: 340px;
+    }
+
+    #BloonsTD6HeroImage {
+        height: 350px;
+    }
+
+    #LethalCompanyHeroImage {
+        height: 500px;
+    }
+
+    #CookieClickerHeroImage {
+        height: 400px;
+    }
+
+    #REPOHeroImage {
+        height: 400px;
+    }
 }
 
+@media screen and (max-width: 900px) {
+    #LethalCompanyHeroImage {
+        height: 350px;
+    }
+
+    #CookieClickerHeroImage {
+        height: 220px;
+    }
+
+    #REPOHeroImage {
+        height: 300px;
+    }
+}
 
 @media screen and (max-width: 865px) {
     #navbuttons {
