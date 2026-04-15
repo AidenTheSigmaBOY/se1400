@@ -139,6 +139,16 @@ header h1 {
     grid-column: 1 / -1;
 }
 
+#TetoHeroImage {
+    background-image: url(HeroImages/TetoHero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
 #navbuttons {
     background-color: transparent;
     display: flex;
@@ -173,6 +183,33 @@ main {
     grid-row: 3 / 4;
     grid-column: 1 / -1;
     overflow-x: auto;
+}
+
+/* This section only exists for the About Me page */
+
+#MeInfo {
+    width: 100%;
+}
+
+#MeInfo img {
+    width: 400px;
+}
+
+main #MeInfo ol li {
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+main #MeInfo p {
+    padding: 0px;
+    color: rgb(231, 244, 255);
+    background-color: transparent;
+    font-size: 30px;
+}
+
+main #MeInfo p:hover {
+    background-color: transparent;
 }
 
 .col-3 {
@@ -240,6 +277,12 @@ footer {
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
+}
+
+@media screen and (max-width: 1600px) {
+    #TetoHeroImage {
+        height: 350px;
+    }
 }
 
 @media screen and (max-width: 1500px) {
@@ -318,6 +361,10 @@ footer {
     #REPOHeroImage {
         height: 400px;
     }
+
+    #TetoHeroImage {
+        height: 250px;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -331,6 +378,10 @@ footer {
 
     #REPOHeroImage {
         height: 300px;
+    }
+
+    #TetoHeroImage {
+        height: 150px;
     }
 }
 
@@ -362,5 +413,9 @@ footer {
 
     header h1 {
         font-size: 200%;
+    }
+
+    #MeHeroImage {
+        background-size: contain;
     }
 }
