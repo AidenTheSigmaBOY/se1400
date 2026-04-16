@@ -363,6 +363,10 @@ footer {
     .col-3 img {
         width: 400px;
     }
+
+    .col-3 div p {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 1400px) {
@@ -470,9 +474,5 @@ footer {
 
     #MeHeroImage {
         background-size: contain;
-    }
-
-    .col-3 div p {
-        font-size: 25px;
     }
 }
