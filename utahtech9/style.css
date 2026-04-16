@@ -163,6 +163,16 @@ main {
     grid-column: 1 / -1;
 }
 
+#shoppingcart img {
+    width: 100%;
+    height: auto;
+}
+
+#shoppingcart {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 main img {
     float: right;
     padding-left: 2rem;
@@ -280,6 +290,10 @@ video {
         width: 100%;
         height: auto;
     }
+
+    #shoppingcart {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -298,5 +312,9 @@ video {
     #facultyhero,
     #alumnihero, #shophero {
         display: none;
+    }
+
+    #shoppingcart {
+        grid-template-columns: 1fr;
     }
 }
