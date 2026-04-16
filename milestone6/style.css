@@ -266,6 +266,10 @@ main p:hover {
     width: 100%;
 }
 
+.col-3 div p {
+    outline: 3px solid black;
+}
+
 .home-img {
     height: 400px;
     object-fit: cover;
