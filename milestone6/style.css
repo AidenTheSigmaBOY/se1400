@@ -241,6 +241,7 @@ main p {
     background-color: rgb(90, 188, 234);
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
 }
 
 main p:hover {
@@ -469,5 +470,9 @@ footer {
 
     #MeHeroImage {
         background-size: contain;
+    }
+
+    .col-3 div p {
+        font-size: 25px;
     }
 }
