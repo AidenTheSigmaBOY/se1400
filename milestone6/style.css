@@ -185,6 +185,10 @@ header h1 {
     color: black;
 }
 
+a {
+    text-decoration: none;
+}
+
 #navbuttons a:hover {
     background-color: red;
 }
