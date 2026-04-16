@@ -70,6 +70,15 @@ header h1 {
     width: 100%;
 }
 
+#EasterEggHeader {
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    margin-top: 20px;
+    width: 100%;
+}
+
 /* Hero Images Remain In This Section */
 
 #GameHeroImageContainer {
@@ -238,6 +247,12 @@ main p:hover {
     background-color: red;
 }
 
+#EasterEggButton {
+    height: 6.7px;
+    width: 6.7px;
+    background-color: rgb(145, 145, 145);
+}
+
 .col-3 img {
     width: 100%;
 }
@@ -274,6 +289,19 @@ main p:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+
+#EasterEggGallary img {
+    width: 50%;
+}
+
+#EasterEggGallary {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-row: 1 / -1;
+    grid-column: 5 / -5;
 }
 
 footer {
@@ -318,6 +346,12 @@ footer {
     .col-3 {
         flex-flow: column wrap;
         width: 100%;
+        align-items: center;
+    }
+
+    #EasterEggGallary {
+        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
     }
 
@@ -373,6 +407,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 1500px) {
+    #EasterEggHeader {
+        font-size: 30px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     #LethalCompanyHeroImage {
         height: 350px;
@@ -394,6 +434,12 @@ footer {
 @media screen and (max-width: 865px) {
     #navbuttons {
         gap: 10%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #EasterEggHeader {
+        font-size: 20px;
     }
 }
 
