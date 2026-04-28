@@ -1,0 +1,486 @@
+* {
+    background-color: rgb(180, 180, 180);
+}
+
+img {
+    width: 100%;
+}
+
+#wrapper {
+    display: grid;
+    grid-auto-rows: minmax(0, auto);
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
+
+/* Info Tags Remain at Top Because They're Being Used on Almost Every Page */
+
+#Info,
+#Info * {
+    background-image: linear-gradient(to right, rgb(50, 194, 255), rgb(75, 175, 251));
+    padding: 20px;
+}
+
+#Info {
+    outline: #000 Solid 5px;
+}
+
+#Info h2 {
+    padding-bottom: 0px;
+    font-size: 40px;
+}
+
+#Info li {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.instagram {
+    width: 60px;
+    margin-top: 5px;
+    margin-top: -40px;
+}
+
+#BackArrow {
+    width: 70px;
+    margin-top: -40px;
+}
+
+.logo {
+    width: 95px;
+}
+
+header {
+    margin-bottom: 8px;
+    height: 100px;
+    width: 100%;
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#EasterEggHeader {
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Hero Images Remain In This Section */
+
+#GameHeroImageContainer {
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+#hero {
+    background-image: url(Hero-Image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    grid-column: 1 / -1;
+}
+
+#DRGHeroImage {
+    background-image: url(HeroImages/DRGHeroImage.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+#DragonBallFighterZHeroImage {
+    background-image: url(HeroImages/DragonBallFighterZHeroImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+#BloonsTD6HeroImage {
+    background-image: url(HeroImages/BloonsTD6HeroImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+#LethalCompanyHeroImage {
+    background-image: url(HeroImages/LethalCompanyHeroImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+#CookieClickerHeroImage {
+    background-image: url(HeroImages/CookieClickerHeroImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+#REPOHeroImage {
+    background-image: url(HeroImages/REPOHeroImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+#TetoHeroImage {
+    background-image: url(HeroImages/TetoHero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+#navbuttons {
+    background-color: transparent;
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+    grid-row: 3 / 3;
+    grid-column: 2 / -2;
+    margin-top: -45px;
+    height: fit-content;
+}
+
+#navbuttons a {
+    background-color: rgb(84, 84, 253);
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbuttons a:hover {
+    background-color: red;
+}
+
+main {
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: transparent;
+    padding: 15px;
+    gap: 50px;
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+    overflow-x: auto;
+}
+
+/* This section only exists for the About Me page */
+
+#MeInfo {
+    width: 100%;
+}
+
+#MeInfo img {
+    width: 400px;
+}
+
+main #MeInfo ol li {
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+main #MeInfo p {
+    padding: 0px;
+    color: rgb(231, 244, 255);
+    background-color: transparent;
+    font-size: 30px;
+}
+
+main #MeInfo p:hover {
+    background-color: transparent;
+}
+
+.col-3 {
+    display: flex;
+    grid-column: 1 / -1;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+main p {
+    padding: 10px;
+    background-color: rgb(90, 188, 234);
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+main p:hover {
+    background-color: red;
+}
+
+#EasterEggButton {
+    height: 6.7px;
+    width: 6.7px;
+    background-color: rgb(145, 145, 145);
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.col-3>div {
+    width: 100%;
+}
+
+.col-3 div p {
+    outline: 3px solid black;
+}
+
+.home-img {
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#gallary-img {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-right: 3%;
+    margin-left: 3%;
+    transition: ease all .75s;
+}
+
+#gallary-img:hover {
+    width: 45%;
+}
+
+.home-img img {
+    object-fit: cover;
+}
+
+#gallary {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#EasterEggGallary img {
+    width: 50%;
+}
+
+#EasterEggGallary {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-row: 1 / -1;
+    grid-column: 5 / -5;
+}
+
+footer {
+    grid-row: 4 / 5;
+    grid-column: 4 / -4;
+    color: rgb(87, 133, 133);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+
+@media screen and (max-width: 1600px) {
+    #TetoHeroImage {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #DRGHeroImage {
+        height: 500px;
+    }
+
+    #DragonBallFighterZHeroImage {
+        height: 500px;
+    }
+
+    #BloonsTD6HeroImage {
+        height: 500px;
+    }
+
+    #LethalCompanyHeroImage {
+        height: 700px;
+    }
+
+    #CookieClickerHeroImage {
+        height: 500px;
+    }
+}
+
+
+@media screen and (max-width: 1483px) {
+    .col-3 {
+        flex-flow: column wrap;
+        width: 100%;
+        align-items: center;
+    }
+
+    #EasterEggGallary {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .col-3 div p {
+        width: 380px;
+    }
+
+    .col-3 img {
+        width: 400px;
+    }
+
+    .col-3 div p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #gallary {
+        flex-direction: column;
+    }
+
+    #gallary-img {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        transition: ease all .75s;
+        flex-flow: column;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    #DRGHeroImage {
+        height: 320px;
+    }
+
+    #DragonBallFighterZHeroImage {
+        height: 340px;
+    }
+
+    #BloonsTD6HeroImage {
+        height: 350px;
+    }
+
+    #LethalCompanyHeroImage {
+        height: 500px;
+    }
+
+    #CookieClickerHeroImage {
+        height: 400px;
+    }
+
+    #REPOHeroImage {
+        height: 400px;
+    }
+
+    #TetoHeroImage {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #EasterEggHeader {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #LethalCompanyHeroImage {
+        height: 350px;
+    }
+
+    #CookieClickerHeroImage {
+        height: 220px;
+    }
+
+    #REPOHeroImage {
+        height: 300px;
+    }
+
+    #TetoHeroImage {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    #navbuttons {
+        gap: 10%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #EasterEggHeader {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    #navbuttons a {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .col-3 img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .col-3 div p {
+        width: 230px;
+        margin-top: -140px;
+    }
+
+    main {
+        margin-bottom: 5%;
+    }
+
+    header h1 {
+        font-size: 200%;
+    }
+
+    #MeHeroImage {
+        background-size: contain;
+    }
+}
